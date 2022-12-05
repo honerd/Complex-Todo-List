@@ -1,0 +1,28 @@
+.header_text
+{
+    width:100vw;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 5vh;
+    /* background-color:var(--peach); */
+    padding:20px;
+    border-bottom:2px solid grey;
+    
+}
+
+.header_text>.list
+{
+    color:var(--slicedapple);
+    margin-top:5px;
+    padding:5px;
+}
+
+.header_text>.todo
+{
+    background-color: var(--coral);
+    border-radius:5px;
+    color: white;
+    margin-top:5px;
+    padding:5px;
+}
