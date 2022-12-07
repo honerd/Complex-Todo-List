@@ -76,3 +76,29 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.submit_button
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_button>button
+{
+    width:15vw;
+    padding:10px;
+    font-size: 3vh;
+    color: var(--slicedapple);
+    background-color: var(--peach);
+    border-radius: 10px;
+    border:none
+}
+
+.submit_button>button:hover
+{
+    background-color: var(--slicedapple);
+    color:var(--peach);
+    cursor: pointer;
+}
